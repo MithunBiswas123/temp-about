@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#page2 {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#page2div2 {
+  padding: 0 125px;
+}
+body {
+  background-color: #121212;
+}
+#ourMission {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+}
+#ourMissionText {
+  margin-bottom: 23px;
+}
+#ourMissionImage {
+  padding: 20px 0;
+}
+#mainTextPage2 {
+  color: #ff0000;
+  font-weight: 600;
+  font-size: 30px;
+}
+#textPage2 {
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: left;
+  padding: 0 10px;
+  line-height: 30.26px;
+  font-weight: lighter;
+}
+#page3 {
+  padding: 0 100px;
+}
+#page3div2 {
+  height: 100px;
+  border: 1px solid #d9d9d9;
+  border-radius: 30px;
+  padding: 41px 15px;
+  height: auto;
+}
+#page3image1,
+#page3image2,
+#page3image3 {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+
+  transition: transform 0.2s ease;
+}
+#page3left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#page3Content {
+  font-weight: lighter;
+  font-size: 30px;
+  line-height: 36.31px;
+  align-content: left;
+  color: white;
+}
+#Why,
+#Careertronics {
+  font-weight: 600;
+  font-size: 30px;
+}
+#Why {
+  color: white;
+  font-weight: 400; /* Changed from 500 to 400 */
+}
+#Careertronics {
+  color: #ff0000;
+}
+#page3h1 {
+  margin-bottom: 1.5rem;
+}
+#page3 {
+  margin-bottom: 130px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
